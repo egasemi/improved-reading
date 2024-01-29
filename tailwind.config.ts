@@ -13,9 +13,12 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Inter", ...defaultTheme.fontFamily.sans],
+        sans: ["Oxygen", ...defaultTheme.fontFamily.sans],
       },
     },
+    colors: {
+      orange: '#ff6a00'
+    }
   },
   plugins: [require("@tailwindcss/typography")],
 };

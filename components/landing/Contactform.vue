@@ -14,7 +14,7 @@ onMounted(() => {
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
 
-    result.innerHTML = "Sending...";
+    result.innerHTML = "Enviando...";
 
     fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -37,7 +37,7 @@ onMounted(() => {
       })
       .catch((error) => {
         console.log(error);
-        result.innerHTML = "Something went wrong!";
+        result.innerHTML = "Algo salió mal!";
       })
       .then(function () {
         form.reset();
@@ -60,7 +60,8 @@ onMounted(() => {
     class="needs-validation"
     novalidate
   >
-    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+    <input type="hidden" name="access_key" value="5e9606e6-0985-4160-b6c1-5cc88989a71f" />
+    <input type="hidden" name="subject" value="Nuevo mail desde improved-reading.com.ar">
     <!-- Create your free access key from https://web3forms.com/ -->
     <input
       type="checkbox"
@@ -71,44 +72,44 @@ onMounted(() => {
     <div class="mb-5">
       <input
         type="text"
-        placeholder="Full Name"
+        placeholder="Nombre Completo"
         required
         class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
         name="name"
       />
       <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
-        Please provide your full name.
+        Campo obligatorio.
       </div>
     </div>
     <div class="mb-5">
-      <label for="email_address" class="sr-only">Email Address</label
+      <label for="email_address" class="sr-only">Email</label
       ><input
         id="email_address"
         type="email"
-        placeholder="Email Address"
+        placeholder="Email"
         name="email"
         required
         class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
       />
       <div class="empty-feedback text-red-400 text-sm mt-1">
-        Please provide your email address.
+        Campo obligatorio.
       </div>
       <div class="invalid-feedback text-red-400 text-sm mt-1">
-        Please provide a valid email address.
+        Email no válido.
       </div>
     </div>
     <div class="mb-3">
       <textarea
         name="message"
         required
-        placeholder="Your Message"
+        placeholder="Tu mensaje"
         class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none h-36 focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
       ></textarea>
       <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
-        Please enter your message.
+        Campo obligatorio.
       </div>
     </div>
-    <LandingButton type="submit" size="lg" block>Send Message</LandingButton>
+    <LandingButton type="submit" size="lg" block>Enviar Mensaje</LandingButton>
     <div id="result" class="mt-3 text-center"></div>
   </form>
 </template>
