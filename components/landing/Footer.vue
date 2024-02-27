@@ -1,7 +1,7 @@
 <template>
   <footer class="my-20">
     <p class="text-center text-sm text-slate-500">
-      Copyright © {{ new Date().getFullYear() }} Improved Rading. Todos los derechos reservados.
+      Copyright © {{ new Date().getFullYear() }} Improved Reading. Todos los derechos reservados.
     </p>
     <!--
       Can we ask you a favor 🙏

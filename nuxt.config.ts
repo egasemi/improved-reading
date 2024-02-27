@@ -9,4 +9,9 @@ export default defineNuxtConfig({
     },
   },
   modules: ["nuxt-icon", "@nuxt/content"],
+  app: {
+    head: {
+      title: "Improved Reading"
+    }
+  }
 });

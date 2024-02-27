@@ -1,22 +1,22 @@
 <script setup>
 const logos = [
   {
-    title: "Líder del mercado en formación de lectura",
-    subtitle: "2 millones de participantes en 50 años",
+    title: "Líder del mercado en formación para la lectura",
+    subtitle: "> 2 millones de participantes en 50 años",
     img: "logo1.png"
   },
   {
     title: "Recomendado oficialmente",
-    subtitle: "La principal fundación alemana de seguridad de los consumidores 'Foundation merchandise test' dice 'good' (3/2015) Mejor curso de Aula de Vela",
+    subtitle: 'La fundación alemana líder en seguridad del consumidor "Stiftung Warentest" dice "bueno" (3/2015) – mejor curso presencial de Lectura Rápida',
     img: "logo2.png"
   },
   {
-    title: "No simplemente lectura diagonal",
-    subtitle: "Para todos aquellos que prestan atención a la calidad y la seguridad a la hora de leer",
+    title: "No sólo lectura superficial",
+    subtitle: "Para todos aquellos que prestan atención a la calidad y la seguridad al leer",
     img: "logo3.png"
   },
   {
-    title: "Con base en la sens",
+    title: "Con base científica",
     subtitle: "Todas las técnicas están científicamente probadas",
     img: "logo4.png"
   }
