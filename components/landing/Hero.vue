@@ -8,7 +8,7 @@
         Improved Reading: Leer más rápido y comprender mejor
       </h1>
       <p class="text-lg mt-4 text-slate-600 max-w-xl">
-        Lectura rápida (Speed Reading) para profesionales por el líder del mercado
+        Lectura Rápida y Eficaz para profesionales por la empresa líder del mercado
       </p>
       <div class="mt-6 flex flex-col sm:flex-row gap-3">
       </div>

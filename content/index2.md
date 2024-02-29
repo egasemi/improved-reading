@@ -6,15 +6,17 @@ Hemos desarrollado nuestras competencias y herramientas para la formación en l�
 <br>
 <br>
 
-**Webinar - Entrenamiento en línea - Transferir nuestra formación en el aula 1:1**
+**Webinar + formación en línea**
 <br>
-Beneficio de la formación, alcance y resultado para los participantes – todo implementado para usted de una nueva manera: un híbrido de una serie de webinars en grupo y formación individual online, con coaching personal – a petición dirigido a necesidades especiales en ciencia o a la clase de textos que esta la más frecuente en su institución/empresa.
+Sistema híbrido compuesto de una serie de webinars en grupo y formación individual online, con tutor personal. 
 <br>
 <br>
 
-**Versión online pura**
+**Versión 100% online**
 <br>
 Fórmese de forma completa e independiente, con el apoyo activo de un tutor profesional. Usted adquiere las licencias en línea de forma individual o en paquetes económicos y las pone a disposición de los participantes cuando las necesiten. Pueden empezar el curso inmediatamente, sin más trámites.
+<br>
+[**Reservas y más información**](https://webcoached.de/shop/trainerenglisch/speed-reading-training-auf-englisch/)
 <br>
 <br>
 
