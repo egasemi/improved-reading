@@ -1,16 +1,29 @@
 <template>
-  <section class="flex items-center justify-center mt-4">
-    <img src="/img/img1.jpg" alt="Descripción de la imagen" class="w-1/2">
-    <ul class="w-1/2 mx-auto text-left">
-      <h1>A pesar de la sobrecarga de información:</h1>
-      <div class="flex items-center">
-        <img src="/icons/task.svg" alt="check icon" id="icon">
-        <li>más tiempo</li>
-      </div>
-      <li>menos estrés</li>
-      <li>mayor concentración</li>
-      <li>ojos relajados</li>
-    </ul>
+  <section class="flex flex-row mt-4">
+    <div class="basis-1/2">
+      <img src="/img/img1.jpg" alt="Descripción de la imagen">
+    </div>
+    <div class="basis-1/2 grid justify-items-center content-center">
+      <ul>
+        <h1 class="text-xl mb-5"><b>A pesar de la sobrecarga de información:</b></h1>
+        <div class="flex items-center">
+          <img src="/icons/task2.svg" alt="check icon" id="icon">
+          <li>más tiempo</li>
+        </div>
+        <div class="flex items-center">
+          <img src="/icons/task2.svg" alt="check icon" id="icon">
+          <li>menos estrés</li>
+        </div>
+        <div class="flex items-center">
+          <img src="/icons/task2.svg" alt="check icon" id="icon">
+          <li>mayor concentración</li>
+        </div>
+        <div class="flex items-center">
+          <img src="/icons/task2.svg" alt="check icon" id="icon">
+          <li>ojos relajados</li>
+        </div>
+      </ul>
+    </div>
   </section>
 </template>
 <style>
@@ -24,5 +37,6 @@
 
   #icon {
     height: 40px;
+    margin-right: 5px;
   }
 </style>

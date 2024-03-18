@@ -1,4 +1,5 @@
 <script setup>
+
 definePageMeta({
   layout: "landing",
 });
@@ -20,5 +21,6 @@ definePageMeta({
       </article>
     </ContentDoc>
     <LandingLogos/>
+    <LandingCenterImg/>
   </LandingContainer>
 </template>
