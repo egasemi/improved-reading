@@ -25,7 +25,7 @@ const logos = [
 
 <template>
   <div class="mt-24">
-    <h2 class="text-center text-3xl lg:text-4xl text-orange font-bold">Nuestro USP</h2>
+    <h2 class="text-center text-3xl lg:text-4xl text-orange font-bold">Nuestras propuestas de venta únicas</h2>
     <div
       class="flex flex-wrap gap-8 items-center justify-center mt-10"
     >
