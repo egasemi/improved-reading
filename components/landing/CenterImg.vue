@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-row mt-4">
+  <section class="flex flex-col md:flex-row mt-4">
     <div class="basis-1/2">
       <img src="/img/img1.jpg" alt="Descripción de la imagen">
     </div>

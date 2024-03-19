@@ -8,7 +8,16 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["nuxt-icon", "@nuxt/content"],
+  modules: ["nuxt-icon", "@nuxt/content","@vuestic/nuxt"],
+  vuestic: {
+    fonts: false,
+    css: false,
+    config: {
+      colors: {
+        variables: {primary: "#ff6a00"}
+      }
+    }
+  },
   app: {
     head: {
       title: "Improved Reading"

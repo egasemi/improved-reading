@@ -27,12 +27,12 @@ const logos = [
   <div class="mt-24">
     <h2 class="text-center text-3xl lg:text-4xl text-orange font-bold">Nuestro USP</h2>
     <div
-      class="flex gap-8 items-center justify-center mt-10"
+      class="flex flex-wrap gap-8 items-center justify-center mt-10"
     >
-      <div v-for="logo in logos" class="basis-1/4">
+      <div v-for="logo in logos" class="w-full md:w-1/2 lg:w-1/5">
         <h1 class="text-md lg:text-xl lg:tracking-tight text-orange font-bold text-center">{{logo.title}}</h1>
         <p class="text-center">{{logo.subtitle}}</p>
-        <img class="h-8 md:h-40 mx-auto" :src="'img/'+logo.img" />
+        <img class="h-40 mx-auto mb-4" :src="'img/'+logo.img" />
       </div>
     </div>
   </div>

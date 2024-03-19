@@ -10,7 +10,6 @@ definePageMeta({
     <LandingHero/>
     <ContentDoc path="/index1" v-slot="{doc}">
       <article>
-        <h1 class="text-2xl lg:text-3xl lg:tracking-tight text-orange my-8">Lectura mejorada e I.I.S.E. de donde venimos</h1>
         <ContentRenderer :value="doc"/>
       </article>
     </ContentDoc>
@@ -20,7 +19,9 @@ definePageMeta({
         <ContentRenderer :value="doc"/>
       </article>
     </ContentDoc>
-    <LandingLogos/>
     <LandingCenterImg/>
+    <LandingLogos/>
+    <LandingBestSeller/>
+    <LandingLoaders/>
   </LandingContainer>
 </template>
