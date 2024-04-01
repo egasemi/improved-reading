@@ -7,7 +7,6 @@
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     trigger.value = true
-                    console.log(trigger.value)
                 }
             })
         })

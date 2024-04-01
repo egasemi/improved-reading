@@ -8,7 +8,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["nuxt-icon", "@nuxt/content","@vuestic/nuxt"],
+  modules: ["nuxt-icon", "@nuxt/content", "@vuestic/nuxt", "@nuxt/image"],
   vuestic: {
     fonts: false,
     css: false,

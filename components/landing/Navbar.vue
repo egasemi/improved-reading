@@ -23,8 +23,7 @@ const open = ref(false);
 </script>
 
 <template>
-  <LandingContainer>
-    <header class="flex flex-col lg:flex-row justify-between items-center my-5">
+    <header class="flex flex-col lg:flex-row justify-between items-center my-5 mx-5">
       <div class="flex w-full lg:w-auto items-center justify-between">
 <!--         <a href="/" class="text-lg">
           Improve Reading
@@ -82,5 +81,10 @@ const open = ref(false);
       </div> -->
     </header>
     <LandingWhatsappButton/>
-  </LandingContainer>
 </template>
+
+<style>
+header {
+  position: sticky;
+}
+</style>
