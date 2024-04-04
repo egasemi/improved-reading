@@ -134,8 +134,8 @@ const cursos = [
       los derechos de promoción y venta del curso en Argentina, Uruguay y Chile desde el año 2023. En el año 2024 finalizó
        su formación como <strong>tutor especialista en Lectura Eficaz.</strong>
     </p>
-    <h1 class="text-2xl lg:text-3xl lg:tracking-tight text-orange my-8 font-bold">
-      Nuestra oferta: ¡Formatos de formación que se adaptan exactamente a las necesidades de cada cliente!
+    <h1 class="text-2xl lg:text-3xl lg:tracking-tight text-orange my-8 font-bold hover-underline">
+      <NuxtLink href="pdfs/curso_general" external target="_blank">Nuestra oferta: ¡Formatos de formación que se adaptan exactamente a las necesidades de cada cliente!</NuxtLink>
     </h1>
     <p>
       Hemos desarrollado nuestras competencias y herramientas para la formación en línea desde 2015. Esto nos da una gran experiencia 
@@ -153,7 +153,7 @@ const cursos = [
     <LandingLogos :logos="logos" title="Nuestras propuestas únicas"/>
     <LandingBestSeller/>
     <LandingLoaders/>
-    <LandingLogos :logos="logos2" title="Confian en nosotros"/>
+    <LandingLogos :logos="logos2" title="Confían en nosotros"/>
   </LandingContainer>
 </template>
 <style>
@@ -164,5 +164,9 @@ p {
 
 h1 {
   font-weight: bold;
+}
+
+.hover-underline:hover {
+  text-decoration: underline;
 }
 </style>

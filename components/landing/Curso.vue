@@ -18,7 +18,7 @@ defineProps(["curso"]);
             :href="curso.button.link"
             target="_blank"
             external
-            class="rounded text-center px-5 py-2.5 w-full bg-orange">
+            class="rounded text-center px-5 py-2.5 w-full border-[#ff6a00] border-2">
             {{ curso.button.text }}
         </NuxtLink>
       </div>
