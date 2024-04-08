@@ -5,8 +5,6 @@ definePageMeta({
   name: "Improved Reading"
 });
 
-const version = ref(false)
-
 const logos = [
   {
     title: "Líder del mercado en formación para la lectura",
@@ -45,12 +43,18 @@ const logos2 = [
   },
   {
     img: "logo10.png"
+  },
+  {
+    img: "logo11.jpeg"
+  },
+  {
+    img: "logo12.jpeg"
   }
 ]
 
 const cursos = [
   {
-    title: "Cursos presenciales in situ: nuestro origen",
+    title: "Cursos presenciales in situ: nuestro origen (2 días)",
     desc: "En sus instalaciones o en una sala de seminarios alquilada, un grupo de participantes ejecuta la formación en formato papel (con el apoyo de aplicaciones específicas en nuestras tablets) o en pantalla (con PC aportadas por cada participante). ",
     popular: false,
     button: {
@@ -59,7 +63,7 @@ const cursos = [
     },
   },
   {
-    title: "Conferencia práctica “Lectura Eficaz” (webinar o presencial, 2:30 hs)",
+    title: "Conferencia práctica “Lectura Eficaz” (webinar o presencial, 2 horas)",
     desc: "En esta interactiva conferencia en directo enseñamos los fundamentos de una técnica de lectura eficaz y los tres errores de lectura más importantes que la mayoría de la gente comete a lo largo de su vida.",
     popular: false,
     button: {
@@ -68,7 +72,7 @@ const cursos = [
     },
   },
   {
-    title: "Taller de Impulso “Lectura Eficaz” (webinar o presencial, 5:30 hs)",
+    title: "Taller de impulso “Lectura Eficaz” (webinar o presencial, 5 horas)",
     desc: "Entrene las técnicas básicas de Improved Reading de forma compacta en un formato de 5:30 hs como seminario web o presencial. ¡Experimente, en muy poco tiempo, cómo puede cambiar notablemente hábitos obstructivos que han estado incorporados durante años!",
     popular: false,
     button: {
@@ -77,17 +81,26 @@ const cursos = [
     },
   },  
   {
-    title: "Versión 100% online",
+    title: "Versión 100% en línea (10 horas)",
     desc: "Fórmese de forma completa e independiente, con el apoyo activo de un tutor profesional. Usted adquiere las licencias en línea de forma individual o en paquetes económicos y las pone a disposición de los participantes cuando las necesiten. Pueden empezar el curso inmediatamente, sin más trámites.",
     popular: false,
     button: {
       text: "Más información",
-      link: "https://webcoached.de/shop/trainerenglisch/speed-reading-training-auf-englisch/",
+      link: "https://webcoached.de/shop/trainerenglisch/speed-reading-training-auf-englisch/?coupon-code=improved-reading.com.ar",
     },
   }, 
   {
-    title: "Webinar + formación en línea",
+    title: "6 Webinars + formación en línea (6 + 8 horas)",
     desc: "Sistema híbrido compuesto de una serie de seminarios online en grupo y formación individual online, con tutor personal.",
+    popular: false,
+    button: {
+      text: "Más información",
+      link: "pdfs/curso_online.pdf",
+    },
+  }, 
+  {
+    title: "Improved Reading Science Online: 3 webinars + formación en línea (5 + 10 horas)",
+    desc: "Descripción sexto curso",
     popular: false,
     button: {
       text: "Más información",
@@ -118,6 +131,7 @@ const cursos = [
       <strong>seminario presencial</strong> o en un <strong>curso en línea</strong> que incluye el apoyo de un entrenador 
       experimentado.
     </p>
+    <LandingLogos :logos="logos2" title="Algunos de los clientes que confían en nosotros"/>
     <br>
     <p>
       Improved Reading es una asociación internacional que utiliza la misma forma y el mismo sistema para <strong>aumentar la eficacia lectora</strong>
@@ -142,18 +156,13 @@ const cursos = [
       sobre cómo combinar la formación clásica con elementos en línea o incluso llevarla a cabo completamente en línea. Descubramos 
       juntos cuál es la solución más adecuada para su organización. <a class="text-orange underline font-bold" href="/contact">Contacta con nosotros</a>
     </p>
-    <LandingButton type="submit" size="lg" @click="() => version = !version">
-      Cambiar estilo cursos (solo prueba)
-    </LandingButton>
-    <div class="grid md:grid-cols-3 gap-10 mx-auto mt-12" v-if="version">
+    <div class="grid md:grid-cols-3 gap-10 mx-auto mt-12">
       <LandingCurso v-for="curso of cursos" :curso="curso" />
     </div>
-    <LandingCursoTexto v-for="curso of cursos" :curso="curso" v-if="!version"/>
     <LandingCenterImg/>
     <LandingLogos :logos="logos" title="Nuestras propuestas únicas"/>
     <LandingBestSeller/>
     <LandingLoaders/>
-    <LandingLogos :logos="logos2" title="Confían en nosotros"/>
   </LandingContainer>
 </template>
 <style>
