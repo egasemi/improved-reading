@@ -1,13 +1,24 @@
 <template>
-    <section class="flex flex-col md:flex-row mt-4 bg-none">
-      <div class="basis-1/4">
-        <img src="/img/book.png" alt="Descripción de la imagen" width="80%">
-      </div>
-      <div class="basis-1/2 grid content-center ml-4">
-          <h1 class="text-3xl mb-5"><b>Bestseller alemán sobre Speed Reading</b></h1>
-          <h1 class="text-xl mb-5">“Leer más rápido - comprender mejor”</h1>
-          <p>Más de 100.000 ejemplares vendidos de nuestro libro basado en el curso de Improved Reading (en Alemania)</p>
-      </div>
-    </section>
-  </template>
+  <section class="flex flex-col md:flex-row mt-7">
+    <div class="basis-1/4" id="b">
+      <img src="/img/book.png" alt="Descripción de la imagen" width="80%">
+    </div>
+    <div class="basis-1/4">
+      <img src="/img/libro2.jpg" alt="Descripción de la imagen" width="80%">
+    </div>
+    <div class="basis-1/2 grid content-center ml-4 pr-4">
+        <h1 class="text-3xl mb-5"><b>Bestseller alemán sobre Speed Reading</b></h1>
+        <h1 class="text-xl mb-5">“Leer más rápido - comprender mejor”</h1>
+        <p>Más de 100.000 ejemplares vendidos de nuestro libro basado en el curso de Improved Reading (en Alemania)</p>
+    </div>
+  </section>
+</template>
+<style>
+  section {
+    background-color: #E8E8E8;
+  }
+  #b {
+    background-color: white;
+  }
+</style>
   

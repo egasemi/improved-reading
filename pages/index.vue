@@ -9,22 +9,22 @@ const logos = [
   {
     title: "Líder del mercado en formación para la lectura",
     subtitle: "> 2 millones de participantes en 50 años",
-    img: "logo1.png"
+    img: "logo3.png"
   },
   {
     title: "Recomendado oficialmente",
     subtitle: 'La fundación alemana líder en seguridad del consumidor "Stiftung Warentest" dice "bueno" (3/2015) - mejor curso presencial de Lectura Rápida',
-    img: "logo2.png"
+    img: "logo4.png"
   },
   {
     title: "No sólo lectura superficial",
     subtitle: "Para todos aquellos que prestan atención a la calidad y la seguridad al leer",
-    img: "logo3.png"
+    img: "logo1.png"
   },
   {
     title: "Con base científica",
     subtitle: "Todas las técnicas están científicamente probadas",
-    img: "logo4.png"
+    img: "logo2.png"
   }
 ]
 
@@ -59,7 +59,7 @@ const cursos = [
     popular: false,
     button: {
       text: "Más información",
-      link: "pdfs/curso_presencial.pdf",
+      link: "pdfs/2_descripcion_curso_insitu.pdf",
     },
   },
   {
@@ -68,7 +68,7 @@ const cursos = [
     popular: false,
     button: {
       text: "Más información",
-      link: "pdfs/conferencia_practica.pdf",
+      link: "pdfs/3_conferencia_practica.pdf",
     },
   },
   {
@@ -77,7 +77,7 @@ const cursos = [
     popular: false,
     button: {
       text: "Más información",
-      link: "pdfs/taller_impulso.pdf",
+      link: "pdfs/4_taller_impulso.pdf",
     },
   },  
   {
@@ -95,16 +95,16 @@ const cursos = [
     popular: false,
     button: {
       text: "Más información",
-      link: "pdfs/curso_online.pdf",
+      link: "pdfs/6_descripcion_webinar.pdf",
     },
   }, 
   {
-    title: "Improved Reading Science Online: 3 webinars + formación en línea (5 + 10 horas)",
-    desc: "Descripción sexto curso",
+    title: "Lectura Eficaz en la Academia: 3 webinars + formación en línea (5 + 10 horas)",
+    desc: "Seminarios web en directo + formación en línea con entrenamiento personal",
     popular: false,
     button: {
       text: "Más información",
-      link: "pdfs/curso_online.pdf",
+      link: "pdfs/descripcion_science.pdf",
     },
   }, 
 ]
@@ -131,7 +131,7 @@ const cursos = [
       <strong>seminario presencial</strong> o en un <strong>curso en línea</strong> que incluye el apoyo de un entrenador 
       experimentado.
     </p>
-    <LandingLogos :logos="logos2" title="Algunos de los clientes que confían en nosotros"/>
+    <LandingLogos :logos="logos2" title="Algunos clientes que confían en nosotros en Alemania"/>
     <br>
     <p>
       Improved Reading es una asociación internacional que utiliza la misma forma y el mismo sistema para <strong>aumentar la eficacia lectora</strong>
@@ -149,7 +149,7 @@ const cursos = [
        su formación como <strong>tutor especialista en Lectura Eficaz.</strong>
     </p>
     <h1 class="text-2xl lg:text-3xl lg:tracking-tight text-orange my-8 font-bold hover-underline">
-      <NuxtLink href="pdfs/curso_general" external target="_blank">Nuestra oferta: ¡Formatos de formación que se adaptan exactamente a las necesidades de cada cliente!</NuxtLink>
+      <NuxtLink href="pdfs/curso_general.pdf" external target="_blank">Nuestra oferta: ¡Formatos de formación que se adaptan exactamente a las necesidades de cada cliente!</NuxtLink>
     </h1>
     <p>
       Hemos desarrollado nuestras competencias y herramientas para la formación en línea desde 2015. Esto nos da una gran experiencia 
@@ -159,9 +159,13 @@ const cursos = [
     <div class="grid md:grid-cols-3 gap-10 mx-auto mt-12">
       <LandingCurso v-for="curso of cursos" :curso="curso" />
     </div>
+    <br>
     <LandingCenterImg/>
+    <br>
     <LandingLogos :logos="logos" title="Nuestras propuestas únicas"/>
+    <br>
     <LandingBestSeller/>
+    <br>
     <LandingLoaders/>
   </LandingContainer>
 </template>

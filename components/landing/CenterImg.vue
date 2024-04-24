@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-col md:flex-row mt-4">
+  <section class="flex flex-col md:flex-row mt-4" id="center_img">
     <div class="basis-1/2">
       <img src="/img/img1.jpg" alt="Descripción de la imagen">
     </div>
@@ -27,7 +27,7 @@
   </section>
 </template>
 <style>
-  section {
+  #center_img {
     background-color: #E8E8E8;
   }
 
