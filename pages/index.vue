@@ -104,7 +104,7 @@ const cursos = [
     popular: false,
     button: {
       text: "Más información",
-      link: "pdfs/descripcion_science.pdf",
+      link: "pdfs/7_descripcion_science.pdf",
     },
   }, 
 ]
@@ -149,7 +149,7 @@ const cursos = [
        su formación como <strong>tutor especialista en Lectura Eficaz.</strong>
     </p>
     <h1 class="text-2xl lg:text-3xl lg:tracking-tight text-orange my-8 font-bold hover-underline">
-      <NuxtLink href="pdfs/curso_general.pdf" external target="_blank">Nuestra oferta: ¡Formatos de formación que se adaptan exactamente a las necesidades de cada cliente!</NuxtLink>
+      <NuxtLink href="pdfs/1_descripcion_general.pdf" external target="_blank">Nuestra oferta: ¡Formatos de formación que se adaptan exactamente a las necesidades de cada cliente!</NuxtLink>
     </h1>
     <p>
       Hemos desarrollado nuestras competencias y herramientas para la formación en línea desde 2015. Esto nos da una gran experiencia 
