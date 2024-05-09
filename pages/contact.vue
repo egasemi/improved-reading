@@ -26,7 +26,7 @@ definePageMeta({
           </div>
           <div class="flex items-center mt-2 space-x-2 text-gray-600">
             <Icon class="text-gray-400 w-4 h-4" name="uil:envelope" /><a
-              href="mailto:contacto@improve-reading.com.ar"
+              href="mailto:contacto@improved-reading.com.ar"
               >contacto@improved-reading.com.ar</a
             >
           </div>
