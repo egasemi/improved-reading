@@ -73,7 +73,7 @@ const cursos = [
   },
   {
     title: "Taller de impulso “Lectura Eficaz” (webinar o presencial, 5 horas)",
-    desc: "Entrene las técnicas básicas de Improved Reading de forma compacta en un formato de 5:30 hs como seminario web o presencial. ¡Experimente, en muy poco tiempo, cómo puede cambiar notablemente hábitos obstructivos que han estado incorporados durante años!",
+    desc: "Entrene las técnicas básicas de Improved Reading de forma compacta en un formato de 5 hs como seminario web o presencial. ¡Experimente, en muy poco tiempo, cómo puede cambiar notablemente hábitos obstructivos que han estado incorporados durante años!",
     popular: false,
     button: {
       text: "Más información",
